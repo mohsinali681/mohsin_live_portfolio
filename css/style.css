@@ -2914,6 +2914,9 @@ input[type="number"] {
   .container {
     padding: 0px 20px;
   }
+  .dizme_tm_hero .background {
+    background-position: unset;
+  }
   .dizme_tm_skills .right {
     padding-left: 0px;
     width: 54%;
@@ -3231,6 +3234,9 @@ input[type="number"] {
   }
 }
 @media (max-width: 768px) {
+  .dizme_tm_hero .background {
+    background-position: unset;
+  }
   .dizme_tm_skills .right {
     margin: 0 auto;
   }
@@ -3408,6 +3414,9 @@ input[type="number"] {
   }
 }
 @media (max-width: 600px) {
+  .logo-text a {
+    font-size: 25px !important;
+  }
   .dizme_tm_about .left .image img {
     max-width: 300px;
     max-height: 300px;
